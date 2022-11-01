@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Teste",
+            "request": "launch",
+            "mainClass": "ifpr.pgua.eic.listatelefonica.Teste",
+            "projectName": "listatelefonica"
+        },
+        {
+            "type": "java",
+            "name": "Launch DataBaseCreator",
+            "request": "launch",
+            "mainClass": "ifpr.pgua.eic.listatelefonica.DataBaseCreator",
+            "projectName": "listatelefonica"
+        },
+        {
+            "type": "java",
             "name": "Launch Laucher",
             "request": "launch",
             "mainClass": "ifpr.pgua.eic.listatelefonica.Laucher",
