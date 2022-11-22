@@ -26,8 +26,6 @@ public class App extends BaseAppNavigator {
         // TODO Auto-generated method stub
         super.init();
 
-        
-
         contatoDAO = new JDBCContatoDAO(fabricaConexoes);
         contatoRepository = new ContatoRepository(contatoDAO);
     }

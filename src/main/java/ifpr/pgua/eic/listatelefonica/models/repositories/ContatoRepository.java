@@ -1,14 +1,11 @@
 package ifpr.pgua.eic.listatelefonica.models.repositories;
 
-import java.lang.invoke.StringConcatFactory;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
 import ifpr.pgua.eic.listatelefonica.models.Contato;
 import ifpr.pgua.eic.listatelefonica.models.daos.ContatoDAO;
 import ifpr.pgua.eic.listatelefonica.models.results.Result;
-import javafx.print.Collation;
 
 public class ContatoRepository {
 
